@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply antialiased bg-slate-50 text-slate-800 selection:bg-indigo-500 selection:text-white;
+  }
+}
+
+/* Clases utilitarias adicionales para texto de tamaño extra pequeño */
+.text-xxs {
+  font-size: 0.65rem;
+}
+.text-xxs {
+  line-height: 1rem;
+}
